@@ -1,0 +1,3 @@
+*.o
+.*.swp
+thread_test
