@@ -5,7 +5,7 @@
 int main()
 {
 #pragma omp parallel for
-  for (int i=0; i < 10; i++)
+  for (int i=0; i < 100; i++)
     {
       init_pointer(i);
       free_pointer();
